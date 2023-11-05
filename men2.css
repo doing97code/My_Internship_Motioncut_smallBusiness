@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+  
+    /* overflow-x: hidden; */
+}
+
+.item_all_menpage2{
+    max-width: 1600px;
+    margin: auto;
+    overflow: auto;
+    margin-top: 20px;
+
+}
+.product {
+    margin: 5px ;
+    margin-left: 5px;
+    float: left;
+    margin: auto;
+    height: 370px;
+    width: 265px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.under_product_img{
+    width: 250px;
+    height:250px ;
+    position: relative;
+    overflow: hidden;
+}
+.size_pic img{
+    position: absolute;
+    width: 250px;
+    height:250px ;
+    transition: 0.45s;
+}
+.size_pic:hover img {
+  
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.product h2 ,p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;
+    margin: auto; */
+}
+.btn button{
+    padding: 5px 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(157, 194, 194);
+    transition: 0.3s;
+}
+.right_head {
+    background-color: brown;
+    padding: 5px 20px;
+    border-radius: 17px;
+} 
+.right_head:hover{
+    background-color: rgb(203, 127, 127);
+    color: white;
+}
+.right_head  a{
+    text-decoration: none;
+    color: white;
+   
+}

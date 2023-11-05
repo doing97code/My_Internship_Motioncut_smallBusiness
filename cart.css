@@ -1,0 +1,33 @@
+#cart-items img{
+    height: 150px;
+    width: 150px;
+}
+/* #cart-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+.js_cart_items{
+    max-width: 1600px;
+    margin: auto;
+    overflow: auto;
+}
+.main_iam_cart{
+    margin: 5px ;
+    margin-left: 5px;
+    float: left;
+    margin: auto;
+    height: 350px;
+    width: 250px;
+    
+}
+#final-price{
+    font-size: 26px;
+    flex-basis: 20%;
+
+}
+.all_in_one{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
